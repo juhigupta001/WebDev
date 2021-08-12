@@ -1,4 +1,9 @@
-window.awesomeFunction = function()
+function awesomeFunction()
 {
-    console.log("This is awesome")
+    console.log("This is awesomea")
+}
+// awesomeFunction()
+
+module.exports={
+    awesomeFunction   
 }
