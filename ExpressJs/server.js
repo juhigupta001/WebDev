@@ -15,6 +15,10 @@ app.get('/greet',(req,res)=>{
 })
 //http://localhost:4444/greet?a=10
 
+app.get('/form',(req,res)=>{
+    console.log("Form executed")
+    res.sendFile(__dirname + '/files/form.html')
+})
 
 app.listen(4444,()=>
 {
